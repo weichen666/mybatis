@@ -1,0 +1,5 @@
+INDEX VERSION 1.3+D:\workspace\java\mybatis\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+4071244707.index
+527586304.index
+3916081775.index
+908306024.index

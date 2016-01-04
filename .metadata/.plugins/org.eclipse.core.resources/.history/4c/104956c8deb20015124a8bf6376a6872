@@ -1,0 +1,12 @@
+package com.newtouch.xmltest;
+
+public class Test {
+
+	@org.junit.Test
+	public void testGetClass()
+	{
+		
+	}
+	
+	
+}

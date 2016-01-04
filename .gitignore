@@ -1,5 +1,6 @@
-*.class
-/.metadata
-.settings/
-.classpath
-.project
+/bin/
+/bulid/
+.metadata
+/.classpath
+/.project
+/.settings/

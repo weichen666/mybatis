@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="Test" project="0104关联表查询-一对一" tests="2" started="2" failures="0" errors="0" ignored="0">
+  <testsuite name="com.newtouch.xmltest.Test" time="0.964">
+    <testcase name="testGetClass" classname="com.newtouch.xmltest.Test" time="0.848"/>
+    <testcase name="testGetClass2" classname="com.newtouch.xmltest.Test" time="0.116"/>
+  </testsuite>
+</testrun>

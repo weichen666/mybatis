@@ -1,0 +1,18 @@
+package com.newtouch.xmltest;
+
+import org.apache.ibatis.session.SqlSession;
+
+import com.newtouch.utils.MyBatisUtil;
+
+public class Test {
+
+	@org.junit.Test
+	public void testGetClass()
+	{
+		SqlSession sqlSession = MyBatisUtil.getSqlSession();
+		
+		String statement = "com.newtouch.mapping.classMapper.getClass";
+		
+		
+	}
+}
