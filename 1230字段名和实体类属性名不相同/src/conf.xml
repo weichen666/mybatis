@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN" "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+
+	<!-- 引用db.properties配置文件 -->
+	<properties resource="db.properties"/>	
+	
+	 <typeAliases>
+		<typeAlias type="com.newtouch.domain.Order" alias="_Order"/>
+	</typeAliases>
+	
+    <environments default="development">
+        <environment id="development">
+            <transactionManager type="JDBC" />
+            <!-- 配置数据库连接信息 -->
+            <dataSource type="POOLED">
+                <property name="driver" value="${driver}" />
+                <property name="url" value="${url}" />
+                <property name="username" value="${name}" />
+                <property name="password" value="${password}" />
+            </dataSource>
+        </environment>
+    </environments>
+    
+    <mappers>
+     	<!-- 注册userMapper.xml文件:
+        	userMapper.xml位于com.newtouch.mapping这个包下，所以resource写成com/newtouch/mapping/userMapper.xml-->
+        <mapper resource="com/newtouch/mapping/orderMapper.xml"/>
+    </mappers>
+
+</configuration>
